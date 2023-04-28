@@ -1,0 +1,26 @@
+.card-container {
+    border: 1px solid rgb(32, 105, 42);;
+    border-radius: 6px;
+    max-width: 300px;
+    padding: 1rem;
+    max-height: 200px;
+    background-color:rgb(32, 105, 42);
+    color: white;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .title-flex {
+      display: flex;
+      align-items: center;
+    }
+
+    .go-button{
+      border: 0;
+      height: 30px;
+      border-radius: 5px;
+      color: white;
+      background-color: rgb(32, 105, 42);
+  }
+  }

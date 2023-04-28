@@ -1,0 +1,16 @@
+<div class="adv-div">
+ <p>
+    Search services from your city
+
+ </p>
+
+ <input list="menace" name="menace">
+
+<datalist id="menace">
+     <option *ngFor="let menace of cities">{{menace.name}} </option>
+</datalist>
+<div class="facilities-container">
+    <app-facilities *ngFor="let fac of facilities" [facility]="fac"></app-facilities>
+</div>
+
+</div>

@@ -1,0 +1,14 @@
+
+<div class="card-container" >
+   
+    <div class="title-flex" routerLink="details">
+      <h3 >{{ facility.title }}</h3>
+    </div>
+    <h6>{{ facility.subtitle }}</h6>
+    <p>{{ facility.description }}</p>
+    <button class="go-button" [routerLink]="['details', facility.id ]">Go to </button>
+  
+    
+  </div>
+
+  

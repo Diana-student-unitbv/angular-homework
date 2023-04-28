@@ -1,0 +1,24 @@
+.card-container {
+    border: 1px solid rgb(32, 105, 42);;
+    border-radius: 6px;
+    padding: 1rem;
+    background-color:rgb(32, 105, 42);
+    color: white;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .title-flex {
+      display: flex;
+      align-items: center;
+    }
+
+img{
+    max-width: 400px;
+    max-height:300px ;
+    }
+  }
+  .detils-p{
+    color: white;
+  }

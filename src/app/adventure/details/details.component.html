@@ -1,0 +1,16 @@
+
+<div *ngIf="listOfFacilities && listOfFacilities.length">
+<div *ngFor="let item of listOfFacilities"  class="card-container" >
+   
+    <div class="title-flex" routerLink="details">
+      <h3 >Hotel name: {{ item.name }}</h3>
+    </div>
+    <h6>Price: {{ item.price }}</h6>
+    <p>{{ item.description }}</p>
+  <img [src]="item.imageUrl">
+    
+  </div>
+</div>
+<div *ngIf="!listOfFacilities || !listOfFacilities.length">
+<p class="detils-p"> No items found</p>
+</div>
